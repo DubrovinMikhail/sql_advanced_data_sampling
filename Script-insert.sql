@@ -44,8 +44,6 @@ values('Artik & Asti');
 insert into artist(name_artist)
 values('Тима Белорусских');
 
-
-
 -- 5 жанров
 insert into genre(name_genre)
 values('pop');
@@ -140,132 +138,26 @@ insert into track(name_track, albom_id, duration)
 values('Мой рай', 9, 216);
 
 -- 8 сборников
+insert into collection(name_collection, year_of_issue)
+values('рок',2000);
 
-insert into collection(name_collection, year_of_issue, track_id)
-values('рок',2000, 1);
+insert into collection(name_collection, year_of_issue)
+values('танцевальная музыка',2010);
 
-insert into collection(name_collection, year_of_issue, track_id)
-values('рок',2000, 2);
+insert into collection(name_collection, year_of_issue)
+values('для души',2015);
 
-insert into collection(name_collection, year_of_issue, track_id)
-values('рок',2000, 3);
+insert into collection(name_collection, year_of_issue)
+values('хиты',2020);
 
-insert into collection(name_collection, year_of_issue, track_id)
-values('рок',2000, 4);
+insert into collection(name_collection, year_of_issue)
+values('дискотека 90-00',2017);
 
-insert into collection(name_collection, year_of_issue, track_id)
-values('рок',2000, 7);
+insert into collection(name_collection, year_of_issue)
+values('медляк',2021);
 
-insert into collection(name_collection, year_of_issue, track_id)
-values('танцевальная музыка',2010, 5);
+insert into collection(name_collection, year_of_issue)
+values('вечеринка',2021);
 
-insert into collection(name_collection, year_of_issue, track_id)
-values('танцевальная музыка',2010, 6);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('танцевальная музыка',2010, 8);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('танцевальная музыка',2010, 9);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('танцевальная музыка',2010, 10);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('танцевальная музыка',2010, 11);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('танцевальная музыка',2010, 13);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('для души',2015, 1);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('для души',2015, 2);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('для души',2015, 4);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('для души',2015, 5);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('для души',2015, 7);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('для души',2015, 15);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('хиты',2020, 5);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('хиты',2020, 7);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('хиты',2020, 8);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('хиты',2020, 11);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('хиты',2020, 13);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('хиты',2020, 15);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('дискотека 90-00',2017, 1);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('дискотека 90-00',2017, 5);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('дискотека 90-00',2017, 6);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('дискотека 90-00',2017, 7);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('дискотека 90-00',2017, 15);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('медляк',2021, 5);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('медляк',2021, 7);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('медляк',2021, 15);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('вечеринка',2021, 6);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('вечеринка',2021, 8);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('вечеринка',2021, 11);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('вечеринка',2021, 13);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('в дорогу',2018, 2);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('в дорогу',2018, 3);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('в дорогу',2018, 4);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('в дорогу',2018, 9);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('в дорогу',2018, 10);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('в дорогу',2018, 12);
-
-insert into collection(name_collection, year_of_issue, track_id)
-values('в дорогу',2018, 14);
+insert into collection(name_collection, year_of_issue)
+values('в дорогу',2018);
