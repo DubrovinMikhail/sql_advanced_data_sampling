@@ -15,4 +15,4 @@ select name_artist from artist
 where name_artist not like '% %';
 
 select name_track from track
-where name_track like '%мой%' or name_track like 'my'
+where name_track like '%РјРѕР№%' or name_track like 'my'

@@ -1,4 +1,4 @@
--- 8 исполнителей
+-- 8 РёСЃРїРѕР»РЅРёС‚РµР»РµР№
 insert into artist(name_artist)
 values('oximiron');
 
@@ -27,24 +27,24 @@ insert into artist(name_artist)
 values('niletto');
 
 insert into artist(name_artist)
-values('элджей');
+values('СЌР»РґР¶РµР№');
 
 insert into artist(name_artist)
 values('feduk');
 
 insert into artist(name_artist)
-values('монеточка');
+values('РјРѕРЅРµС‚РѕС‡РєР°');
 
 insert into artist(name_artist)
-values('МакSим');
+values('РњР°РєSРёРј');
 
 insert into artist(name_artist)
 values('Artik & Asti');
 
 insert into artist(name_artist)
-values('Тима Белорусских');
+values('РўРёРјР° Р‘РµР»РѕСЂСѓСЃСЃРєРёС…');
 
--- 5 жанров
+-- 5 Р¶Р°РЅСЂРѕРІ
 insert into genre(name_genre)
 values('pop');
 
@@ -63,7 +63,7 @@ values('folk');
 insert into genre(name_genre)
 values('hip-hop');
 
---8 альбомов
+--8 Р°Р»СЊР±РѕРјРѕРІ
 insert into albom(name_albom, year_of_publication)
 values('zemfira', 1999);
 
@@ -80,84 +80,84 @@ insert into albom(name_albom, year_of_publication)
 values('gorgorod', 2011);
 
 insert into albom(name_albom, year_of_publication)
-values('Раскраски для взрослых', 2018);
+values('Р Р°СЃРєСЂР°СЃРєРё РґР»СЏ РІР·СЂРѕСЃР»С‹С…', 2018);
 
 insert into albom(name_albom, year_of_publication)
-values('Твой первый диск - моя кассета', 2019);
+values('РўРІРѕР№ РїРµСЂРІС‹Р№ РґРёСЃРє - РјРѕСЏ РєР°СЃСЃРµС‚Р°', 2019);
 
 insert into albom(name_albom, year_of_publication)
-values('Миллениум', 2021);
+values('РњРёР»Р»РµРЅРёСѓРј', 2021);
 
 insert into albom(name_albom, year_of_publication)
-values('Мой рай', 2007);
+values('РњРѕР№ СЂР°Р№', 2007);
 
--- 15 треков
+-- 15 С‚СЂРµРєРѕРІ
 insert into track(name_track, albom_id, duration)
-values('почему', 1, 230);
-
-insert into track(name_track, albom_id, duration)
-values('ариведерчи', 1, 164);
+values('РїРѕС‡РµРјСѓ', 1, 230);
 
 insert into track(name_track, albom_id, duration)
-values('кончится лето', 2, 301);
+values('Р°СЂРёРІРµРґРµСЂС‡Рё', 1, 164);
 
 insert into track(name_track, albom_id, duration)
-values('следи за собой', 2, 346);
+values('РєРѕРЅС‡РёС‚СЃСЏ Р»РµС‚Рѕ', 2, 301);
 
 insert into track(name_track, albom_id, duration)
-values('я не отдам тебя ни кому', 4, 339);
+values('СЃР»РµРґРё Р·Р° СЃРѕР±РѕР№', 2, 346);
 
 insert into track(name_track, albom_id, duration)
-values('лучший парень', 4, 258);
+values('СЏ РЅРµ РѕС‚РґР°Рј С‚РµР±СЏ РЅРё РєРѕРјСѓ', 4, 339);
 
 insert into track(name_track, albom_id, duration)
-values('дыхание', 5, 339);
+values('Р»СѓС‡С€РёР№ РїР°СЂРµРЅСЊ', 4, 258);
 
 insert into track(name_track, albom_id, duration)
-values('минимал', 3, 203);
+values('РґС‹С…Р°РЅРёРµ', 5, 339);
 
 insert into track(name_track, albom_id, duration)
-values('где нас нет', 5, 266);
+values('РјРёРЅРёРјР°Р»', 3, 203);
 
 insert into track(name_track, albom_id, duration)
-values('ночной ларек', 6, 164);
+values('РіРґРµ РЅР°СЃ РЅРµС‚', 5, 266);
 
 insert into track(name_track, albom_id, duration)
-values('витаминка', 7, 176);
+values('РЅРѕС‡РЅРѕР№ Р»Р°СЂРµРє', 6, 164);
 
 insert into track(name_track, albom_id, duration)
-values('руферы', 7, 191);
+values('РІРёС‚Р°РјРёРЅРєР°', 7, 176);
 
 insert into track(name_track, albom_id, duration)
-values('истеричка', 8, 224);
+values('СЂСѓС„РµСЂС‹', 7, 191);
 
 insert into track(name_track, albom_id, duration)
-values('Миллениум', 8, 200);
+values('РёСЃС‚РµСЂРёС‡РєР°', 8, 224);
 
 insert into track(name_track, albom_id, duration)
-values('Мой рай', 9, 216);
+values('РњРёР»Р»РµРЅРёСѓРј', 8, 200);
 
--- 8 сборников
+insert into track(name_track, albom_id, duration)
+values('РњРѕР№ СЂР°Р№', 9, 216);
+
+-- 8 СЃР±РѕСЂРЅРёРєРѕРІ
 insert into collection(name_collection, year_of_issue)
-values('рок',2000);
-
-insert into collection(name_collection, year_of_issue)
-values('танцевальная музыка',2010);
+values('СЂРѕРє',2000);
 
 insert into collection(name_collection, year_of_issue)
-values('для души',2015);
+values('С‚Р°РЅС†РµРІР°Р»СЊРЅР°СЏ РјСѓР·С‹РєР°',2010);
 
 insert into collection(name_collection, year_of_issue)
-values('хиты',2020);
+values('РґР»СЏ РґСѓС€Рё',2015);
 
 insert into collection(name_collection, year_of_issue)
-values('дискотека 90-00',2017);
+values('С…РёС‚С‹',2020);
 
 insert into collection(name_collection, year_of_issue)
-values('медляк',2021);
+values('РґРёСЃРєРѕС‚РµРєР° 90-00',2017);
 
 insert into collection(name_collection, year_of_issue)
-values('вечеринка',2021);
+values('РјРµРґР»СЏРє',2021);
 
 insert into collection(name_collection, year_of_issue)
-values('в дорогу',2018);
+values('РІРµС‡РµСЂРёРЅРєР°',2021);
+
+insert into collection(name_collection, year_of_issue)
+values('РІ РґРѕСЂРѕРіСѓ',2018);
